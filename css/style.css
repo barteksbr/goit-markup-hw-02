@@ -7,15 +7,22 @@ html {
     box-sizing: inherit;
 }
 
-.body {
+body {
     font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
 }
 
 .button {
+    width: 116px;
+    height: 48px;
+    margin: 12px;
     background-color: #E7E9FC;
     color: #4D5AE5;
     border: none;
     font-weight: 500;
+    border-radius: 4px;
+    font-size: 16px;
+    
 }
 
 .button:active {
@@ -24,37 +31,104 @@ html {
 
 }
 
+.button:hover {
+    background-color: #404BBF;
+    color: #FFFFFF;
+
+}
+
 .firm_name {
+    color: #4D5AE5;
     font-family: Raleway;
     font-weight: 800;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 21px;
 
+}
+
+.navigation {
+    color: #2E2F42;
+    list-style: none;
+    font-weight: 500;
+    size: 16px;
+    line-height: 24px;
+
+}
+
+.navigation_link {
+    text-decoration: none;
+}
+
+.navigation_link:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(233, 66, 233);
+}
+
+.navigation_link:active {
+    color: #4D5AE5;
+}
+
+.contact-links {
+    text-decoration: none;
+    color: #434455;
+    padding: 20px;
+}
+
+.contact-links:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(233, 66, 233);
+}
+
+.contact-links:active {
+    color: #4D5AE5;
+}
+
+.title_section {
+    background-color: #2E2F42;
 }
 
 .main_title {
     font-weight: 700;
+    height: 120px;
+    size: 56px;
+    line-height: 60px;
 }
 
 .header_button {
     background-color: #4D5AE5;
-    color: #FFFFFF
+    color: #FFFFFF;
+    line-height: 24px;
+    font-family: inherit;
+}
+
+.header_button:active {
+    background-color: #2837db;
+    ;
 }
 
 .target_titles {
     color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
+    padding: 4px;
 }
 
 .goals {
     color: #434455;
     font-weight: 400;
-    font-size: 16;
-} 
+    font-size: 16px;
+    padding: 4px;
+}
 
 .section_title {
     color: #2E2F42;
     font-weight: 700;
     font-size: 36px;
+}
+
+.team_section {
+    background-color: #F4F4FD;
 }
 
 .pic_name {
@@ -67,4 +141,8 @@ html {
     color: #2E2F42;
     font-weight: 400;
     font-size: 16px;
+}
+
+.footer {
+    background-color: #2E2F42;
 }
