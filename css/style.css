@@ -9,20 +9,17 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: #FFFFFF;
 }
 
 .button {
     width: 116px;
     height: 48px;
     margin: 12px;
-    background-color: #E7E9FC;
-    color: #4D5AE5;
     border: none;
     font-weight: 500;
     border-radius: 4px;
     font-size: 16px;
-    
+    font-family: inherit;
 }
 
 .button:active {
@@ -57,12 +54,12 @@ body {
 }
 
 .navigation_link {
+    color: #2E2F42;
     text-decoration: none;
 }
 
 .navigation_link:hover {
-    text-decoration: underline;
-    text-decoration-color: rgb(233, 66, 233);
+    color: #404BBF;
 }
 
 .navigation_link:active {
@@ -76,8 +73,7 @@ body {
 }
 
 .contact-links:hover {
-    text-decoration: underline;
-    text-decoration-color: rgb(233, 66, 233);
+    color: #404BBF
 }
 
 .contact-links:active {
@@ -90,9 +86,10 @@ body {
 
 .main_title {
     font-weight: 700;
-    height: 120px;
-    size: 56px;
+    font-size: 56px;
     line-height: 60px;
+    color: #FFFFFF;
+
 }
 
 .header_button {
@@ -107,11 +104,19 @@ body {
     ;
 }
 
+.target_list {
+    list-style: none;
+}
+
 .target_titles {
     color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
     padding: 4px;
+}
+
+.doing_pics {
+    list-style: none;
 }
 
 .goals {
@@ -131,10 +136,22 @@ body {
     background-color: #F4F4FD;
 }
 
+.team_pics {
+    list-style: none;
+}
+
 .pic_name {
     color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
+}
+
+.menu_button {
+    list-style: none;
+}
+
+.porfolio_pics {
+    list-style: none;
 }
 
 .pic_description {
