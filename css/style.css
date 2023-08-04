@@ -7,11 +7,25 @@ html {
     box-sizing: inherit;
 }
 
+:root {
+    --dark: #2e2f42;
+    --text: #434455;
+    --ocean: #404bbf;
+    --main-font: Roboto, sans-serif;
+    --secondary-font: Raleway, sans-serif;
+}
+
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font);
+    color: var(--text);
+    background-color: #FFFFFF;
+    font-size: 16px;;
+    letter-spacing: 0,1em;
 }
 
 .button {
+    color: #4D5AE5;
+    background-color: #E7E9FC;
     width: 116px;
     height: 48px;
     margin: 12px;
@@ -20,6 +34,8 @@ body {
     border-radius: 4px;
     font-size: 16px;
     font-family: inherit;
+    letter-spacing: 0,1em;
+    cursor: pointer;
 }
 
 .button:active {
@@ -33,6 +49,7 @@ body {
     color: #FFFFFF;
 
 }
+
 
 .firm_name {
     color: #4D5AE5;
@@ -56,6 +73,7 @@ body {
 .navigation_link {
     color: #2E2F42;
     text-decoration: none;
+    letter-spacing: 0,1em;
 }
 
 .navigation_link:hover {
@@ -69,7 +87,6 @@ body {
 .contact-links {
     text-decoration: none;
     color: #434455;
-    padding: 20px;
 }
 
 .contact-links:hover {
@@ -89,19 +106,22 @@ body {
     font-size: 56px;
     line-height: 60px;
     color: #FFFFFF;
+    letter-spacing: 0,1em;
 
 }
 
 .header_button {
     background-color: #4D5AE5;
     color: #FFFFFF;
+    font-size: 16px;
     line-height: 24px;
     font-family: inherit;
+    cursor:pointer;
 }
 
-.header_button:active {
+.header_button:hover {
     background-color: #2837db;
-    ;
+    
 }
 
 .target_list {
@@ -112,7 +132,7 @@ body {
     color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
-    padding: 4px;
+    letter-spacing: 0,1em;
 }
 
 .doing_pics {
@@ -123,13 +143,15 @@ body {
     color: #434455;
     font-weight: 400;
     font-size: 16px;
-    padding: 4px;
+    line-height: 24px;
+    letter-spacing: 0,1em;
 }
 
 .section_title {
     color: #2E2F42;
     font-weight: 700;
     font-size: 36px;
+    letter-spacing: 0,1em;
 }
 
 .team_section {
@@ -138,12 +160,14 @@ body {
 
 .team_pics {
     list-style: none;
+    letter-spacing: 0,1em;
 }
 
 .pic_name {
     color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
+    letter-spacing: 0,1em;
 }
 
 .menu_button {
@@ -158,8 +182,17 @@ body {
     color: #2E2F42;
     font-weight: 400;
     font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0,1em;
 }
 
 .footer {
     background-color: #2E2F42;
+}
+
+.footer_text {
+    color: #F4F4FD;
+    font-size: 16px;
+    letter-spacing: 0,1em;
+    line-height: 24px;
 }
