@@ -20,10 +20,10 @@ body {
     color: var(--text);
     background-color: #FFFFFF;
     font-size: 16px;;
-    letter-spacing: 0,1em;
+    letter-spacing: 0.01em;
 }
 
-.button {
+.portfolio_button {
     color: #4D5AE5;
     background-color: #E7E9FC;
     width: 116px;
@@ -34,17 +34,17 @@ body {
     border-radius: 4px;
     font-size: 16px;
     font-family: inherit;
-    letter-spacing: 0,1em;
+    letter-spacing: 0.01em;
     cursor: pointer;
 }
 
-.button:active {
+.portfolio_button:active {
     background-color: #404BBF;
     color: #FFFFFF;
 
 }
 
-.button:hover {
+.portfolio_button:hover {
     background-color: #404BBF;
     color: #FFFFFF;
 
@@ -73,7 +73,7 @@ body {
 .navigation_link {
     color: #2E2F42;
     text-decoration: none;
-    letter-spacing: 0,1em;
+    letter-spacing: 0.01em;
 }
 
 .navigation_link:hover {
@@ -106,7 +106,7 @@ body {
     font-size: 56px;
     line-height: 60px;
     color: #FFFFFF;
-    letter-spacing: 0,1em;
+    letter-spacing: 0.02em;
 
 }
 
@@ -120,7 +120,7 @@ body {
 }
 
 .header_button:hover {
-    background-color: #2837db;
+    background-color: #404BBF;
     
 }
 
@@ -132,7 +132,7 @@ body {
     color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
-    letter-spacing: 0,1em;
+    letter-spacing: 0.01em;
 }
 
 .doing_pics {
@@ -144,14 +144,14 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0,1em;
+    letter-spacing: 0.01em;
 }
 
 .section_title {
     color: #2E2F42;
     font-weight: 700;
     font-size: 36px;
-    letter-spacing: 0,1em;
+    letter-spacing: 0.01em;
 }
 
 .team_section {
@@ -160,14 +160,14 @@ body {
 
 .team_pics {
     list-style: none;
-    letter-spacing: 0,1em;
+    letter-spacing: 0.01em;
 }
 
 .pic_name {
     color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
-    letter-spacing: 0,1em;
+    letter-spacing: 0.01em;
 }
 
 .menu_button {
@@ -183,7 +183,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0,1em;
+    letter-spacing: 0.01em;
 }
 
 .footer {
@@ -193,6 +193,6 @@ body {
 .footer_text {
     color: #F4F4FD;
     font-size: 16px;
-    letter-spacing: 0,1em;
+    letter-spacing: 0.1em;
     line-height: 24px;
 }
