@@ -6,7 +6,6 @@
 }
 
 
-
 .navi_container {
     display: flex;
 }
@@ -27,7 +26,12 @@
     display: flex;
 }
 
-.header_container_item {
-    padding: 30px;
-    
+.portfolio_navi_container {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio_pic_container {
+    display: flex;
+    flex-wrap: wrap;
 }
