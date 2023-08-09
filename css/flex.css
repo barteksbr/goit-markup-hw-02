@@ -1,0 +1,9 @@
+.header_container {
+    border-bottom: 1px solid rgb(249, 239, 239);
+    display: flex;
+}
+
+.header_container_item {
+    padding: 30px;
+    
+}
