@@ -22,6 +22,15 @@ body {
     font-size: 16px;
     ;
     letter-spacing: 0.01em;
+    max-width: 1440px;
+}
+
+.container {
+    width: 1158px;
+}
+
+.header_section {
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .portfolio_button {
@@ -88,6 +97,7 @@ body {
 .contact-links {
     text-decoration: none;
     color: #434455;
+    padding: 40px;
 }
 
 .contact-links:hover {
