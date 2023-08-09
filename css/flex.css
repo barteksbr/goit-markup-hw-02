@@ -27,13 +27,7 @@
     display: flex;
 }
 
-.portfolio_navi_container {
-    display: flex;
-    justify-content: center;
-}
-
-.portfolio_pic_container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.header_container_item {
+    padding: 30px;
+    
 }
