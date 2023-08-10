@@ -26,7 +26,8 @@ body {
 }
 
 .container {
-    width: 1158px;
+    max-width: 1158px;
+    margin: auto;
 }
 
 .header_section {
@@ -110,6 +111,7 @@ body {
 
 .title_section {
     background-color: #2E2F42;
+
 }
 
 .main_title {
@@ -118,8 +120,9 @@ body {
     line-height: 60px;
     color: #FFFFFF;
     letter-spacing: 0.02em;
-
-}
+    width: 496px;
+    text-align: center;
+    }
 
 .header_button {
     background-color: #4D5AE5;
@@ -128,6 +131,7 @@ body {
     line-height: 24px;
     font-family: inherit;
     cursor: pointer;
+    padding: 16px 32px 16px 32px;
 }
 
 .header_button:hover {
@@ -137,6 +141,7 @@ body {
 
 .target_list {
     list-style: none;
+    padding: 24px;
 }
 
 .target_titles {
@@ -148,6 +153,7 @@ body {
 
 .doing_pics {
     list-style: none;
+    padding: 0px 12px 0px 12px;
 }
 
 .goals {
@@ -163,6 +169,7 @@ body {
     font-weight: 700;
     font-size: 36px;
     letter-spacing: 0.01em;
+    text-align: center;
 }
 
 .team_section {
@@ -172,6 +179,8 @@ body {
 .team_pics {
     list-style: none;
     letter-spacing: 0.01em;
+    padding: 0px 12px 0px 12px;
+    margin: auto;
 }
 
 .pic_name {
