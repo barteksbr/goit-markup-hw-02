@@ -3,11 +3,13 @@
     padding-bottom: 24px;
     display: flex;
     flex-wrap: wrap;
+    width: 1440px;
 }
 
 
 .navi_container {
     display: flex;
+    padding-left: 76px;
 }
 
 .navi_container_item {
@@ -26,8 +28,7 @@
 
 .section_container {
     display: flex;
-    padding: 120px 56px 0px 56px;
-    justify-content: center;
+    padding-top: 120px;    
 }
 
 .pic_container {
@@ -45,7 +46,8 @@
 .portfolio_navi_container {
     display: flex;
     justify-content: center;
-    padding: 96px 0px 72px 0px;
+    padding-top: 96px;
+    padding-bottom: 72px;
 }
 
 .portfolio_pic_container {

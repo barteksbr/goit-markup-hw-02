@@ -29,6 +29,7 @@ body {
 .container {
     width: 1158px;
     padding: 0px 15px;
+    margin: auto;
 }
 
 .header_section {
@@ -81,6 +82,7 @@ body {
 
 }
 
+
 .navigation_link {
     color: #2E2F42;
     text-decoration: none;
@@ -95,10 +97,15 @@ body {
     color: #4D5AE5;
 }
 
+.adress {
+    font-style: normal;
+    padding-left: 190px;
+}
+
 .contact-links {
     text-decoration: none;
     color: #434455;
-    padding: 40px;
+    padding: 20px;
 }
 
 .contact-links:hover {
@@ -111,6 +118,7 @@ body {
 
 .title_section {
     background-color: #2E2F42;
+    width: 1440px;
 
 }
 
@@ -175,6 +183,7 @@ body {
 }
 
 .team_section {
+    width: 1440px;
     background-color: #F4F4FD;
 }
 
@@ -222,6 +231,7 @@ body {
 }
 
 .footer {
+    width: 1440px;
     background-color: #2E2F42;
     padding-top: 100px;
     padding-bottom: 100px;
